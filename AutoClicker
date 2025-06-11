@@ -1,0 +1,1 @@
+javascript:!function(){var e=!1,d=document.body;document.body.addEventListener("mouseup",()=>{e=!1}),document.body.addEventListener("mousedown",()=>{e=!0}),document.body.addEventListener("mousemove",e=>{d=e.target}),setInterval(()=>{e&&d.click()},0)}();
